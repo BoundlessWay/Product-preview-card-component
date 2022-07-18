@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px) {
+    #product-card {
+        width: 343px;
+        height: 611px;
+    }
+    #product-card>.product-card__desktop-image {
+        display: none;
+    }
+    #product-card>.product-card__mobile-image {
+        width: 100%;
+        display: block;
+    }
+    .product-card__content {
+        display: flex;
+        width: 100%;
+        padding: 24px;
+        height: auto;
+    }
+    .product-card__title {
+        margin-top: 15px;
+    }
+    .product-card__desc {
+        font-size: 1.3rem;
+        margin-top: 15px;
+    }
+    .product-card__price {
+        margin-top: 48px;
+    }
+    .price__current-price {
+        font-size: 3.2rem;
+    }
+    .price__old-price--deleted {
+        font-size: 1.2rem;
+    }
+    .product-card__button {
+        margin-top: 19px;
+    }
+}

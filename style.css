@@ -36,8 +36,14 @@ body {
     overflow: hidden;
 }
 
-#product-card>.product-card__image {
+#product-card>.product-card__desktop-image {
     height: 450px;
+    display: inline;
+}
+
+#product-card>.product-card__mobile-image {
+    width: 343px;
+    display: none;
 }
 
 .product-card__content {
@@ -106,6 +112,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+.product-card__button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 18%);
 }
 
 .button__icon {
