@@ -36,12 +36,12 @@ body {
     overflow: hidden;
 }
 
-#product-card>.product-card__desktop-image {
+#product-card .product-card__desktop-image {
     height: 450px;
-    display: inline;
+    display: inline-block;
 }
 
-#product-card>.product-card__mobile-image {
+#product-card .product-card__mobile-image {
     width: 343px;
     display: none;
 }
